@@ -1,5 +1,5 @@
 name: clawgenius-researcher
-version: 0.1.0
+version: 0.1.1
 description: Source-heavy research and analysis agent
 hermes_requires: '>=0.12.0'
 author: ClawGenius
