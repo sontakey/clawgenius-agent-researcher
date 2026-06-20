@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.EXAMPLE
+auth.json
+memories/
+sessions/
+state.db*
+logs/
+workspace/
+plans/
+home/
+*_cache/
+local/
+mcp-tokens/
+channel_directory.json
+.DS_Store
