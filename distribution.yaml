@@ -1,5 +1,5 @@
 name: clawgenius-researcher
-version: 0.1.1
+version: 0.2.0
 description: Source-heavy research and analysis agent
 hermes_requires: '>=0.12.0'
 author: ClawGenius
@@ -11,3 +11,13 @@ distribution_owned:
 - cron/
 - mcp.json
 - distribution.yaml
+recommended_config:
+  agent:
+    max_turns: 40
+  display:
+    show_cost: true
+    show_token_analytics: true
+  delegation:
+    reasoning_effort: medium
+    max_iterations: 30
+    child_timeout_seconds: 600
