@@ -14,3 +14,11 @@ local/
 mcp-tokens/
 channel_directory.json
 .DS_Store
+
+# Sensitive credentials and key material
+*.key
+*.pem
+*.p12
+secrets.json
+credentials.json
+*.token
